@@ -31,10 +31,39 @@ a{
     font-size: 1rem;
 } */
 
+
+
+
+/* padding-top: 10px;
+
+  padding-right: 5px;
+
+  padding-bottom: 25px;
+
+  padding-left: 30px; */
+/* 
+  padding: 10px 5px 25px 30px; /
+  *
+  margin-top: 5px;
+
+  margin-right: 10px;
+
+  margin-bottom: 20px;
+
+  margin-left: 50px;
+
+  margin: 5px 10px 20px 50px; */
+ */
+
+
+
 -----------------------------------------
 
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
 }
 
 body{
@@ -53,4 +82,46 @@ a{
     color: blue;
 }
 
+.div1{
+    background-color: aqua;
+    margin-bottom: 30px;
+}
 
+.div2{
+    background-color: tan;
+    margin-top: 70px;
+}
+
+.container1{
+    background-color: orange;
+    width: 300px;
+    height: 300px;
+    margin: 30px 30px 40px 40px;
+    padding: 10 px 15px 12px 20px;
+}
+
+.container1 h1{
+    color: blue;
+    padding: 30px 30px 40px 40px;
+}
+
+.container2{
+    background-color: teal;
+    width: 300px;
+    height: 300px;
+}
+
+.div_1{
+    width: 250px;
+    height: 250px;
+    background-color: rebeccapurple;
+    margin-bottom: -70px;
+  }
+  
+  .div_2{
+    width: 250px;
+    height: 250px;
+    background-color: khaki;
+    margin-top: -60px;
+
+  }
